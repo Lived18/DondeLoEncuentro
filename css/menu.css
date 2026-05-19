@@ -1,10 +1,10 @@
-
 /* HEADER RIGHT */
 .header-right {
-  position: relative;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
+    position: relative;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 /* BOTÓN HAMBURGUESA */
@@ -19,7 +19,6 @@
   flex-direction: column;
   gap: 5px;
   transition: background 0.2s;
-  z-index: 1001;
 }
 
 .menu-btn:hover {
