@@ -59,7 +59,7 @@ header {
 }
 
 .header-left button img {
-    height: 350px;
+    height: 250px;
     width: auto;
     object-fit: contain;
 }
@@ -82,7 +82,6 @@ header {
     letter-spacing: 4px;
 }
 
-
 .btn-volver {
     background: none;
     border: none;
@@ -97,53 +96,98 @@ header {
     text-align: left;
 }
 
-
-/* CONTENEDOR PRINCIPAL */
+/* GRILLA ESTILO INSTAGRAM */
 .promos-lista {
     flex: 1 1 auto;
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
-    padding: 24px 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3px;
+    padding: 0;
 }
 
-/* TARJETA DE PROMO */
+/* TARJETA — solo imagen clickeable */
 .promo-card {
-    border: 2px solid #fff;
-    border-radius: 14px;
+    position: relative;
+    aspect-ratio: 1 / 1;
+    cursor: pointer;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    background: #090909;
+    background: #1a1a1a;
 }
 
 .promo-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: opacity 0.2s;
+}
+
+.promo-card:hover img {
+    opacity: 0.8;
+}
+
+/* MODAL */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.88);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+.modal-overlay.open {
+    display: flex;
+}
+
+.modal-card {
+    background: #090909;
+    border: 2px solid #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 420px;
+    position: relative;
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #090909;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    width: 36px;
+    height: 36px;
+    font-family: 'calsans-regular', Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+.modal-close:hover {
+    background: #fff;
+    color: #000;
+}
+
+.modal-card img {
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     display: block;
 }
 
-.promo-info {
-    padding: 14px 16px;
-    border-top: 2px solid #fff;
-}
-
-.promo-info h2 {
-    font-size: 1.3em;
-    font-weight: 700;
-    letter-spacing: 1px;
-    margin-bottom: 4px;
-    color: #fff;
-}
-
-.promo-info p {
-    font-size: 0.9em;
-    color: #999;
-}
 .link-directo {
     padding: 14px 16px;
     border-top: 2px solid #fff;
@@ -223,14 +267,7 @@ footer p {
     }
 
     .promos-lista {
-        padding: 16px 12px;
-        gap: 16px;
-        font-family: 'calsans-regular', Arial, sans-serif;
-    }
-
-    .promo-info h2 {
-        font-size: 1.1em;
-        font-family: 'calsans-regular', Arial, sans-serif;
+        gap: 2px;
     }
 
     footer {

@@ -79,7 +79,7 @@ header {
 }
 
 .header-left button img {
-    height: 350px;
+    height: 250px;
     width: 100%;
     object-fit: contain;
 }

@@ -24,17 +24,16 @@ header {
   width: 100%;
   height: 80px;
   display: flex;
-  align-items: center;
+  align-items: stretch;
 }
 
 .header-content {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     width: 100%;
     padding: 0 10px;
-    box-sizing: border-box;
     height: 100%;
+    justify-content: space-between;
 }
 
 .header-left {
@@ -43,6 +42,12 @@ header {
     justify-content: flex-start;
     flex: 1 1 auto;
     height: 100%;
+}
+.header-right {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 .header-left a {
@@ -194,7 +199,14 @@ footer p {
         height: 250px;
     }
 
-
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 10px;
+    height: 100%;
+    justify-content: space-between;
+}
   nav ul {
     margin: 230px 0 0 0;
   }
