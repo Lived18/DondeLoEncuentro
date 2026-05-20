@@ -201,16 +201,25 @@
     "nombre": "Fuga Burger",
     "consumo": "Consumo en el local",
     "instagram": "https://www.instagram.com/fugaburger_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-    "whatsapp": "https://www.pedidosya.com.ar/restaurantes/san-miguel-de-tucuman/dean-and-dennys-tucuman-e452bfd8-ca00-4937-869c-8a79d6d37ec3-menu?search=dean+and?text=Hola%21%20Vengo%20de%20Donde%20Lo%20Encuentro%2C%20quiero%20hacer%20un%20pedido%3A",
+    "whatsapp": "https://www.pedidosya.com.ar/restaurantes/san-miguel-de-tucuman/dean-and-dennys-tucuman-e452bfd8-ca00-4937-869c-8a79d6d37ec3-menu?search=dean+and",
     "dirección": "Av. Belgrano 2490",
     "zona": "Zona Oeste",
+    "tipo": "De Autor"
+  },
+  {
+    "nombre": "Galia",
+    "consumo": "Consumo en el local",
+    "instagram": "https://www.instagram.com/sangucheriagaliatucuman?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    "whatsapp": "https://wa.me/5493815899593?text=Hola%21%20Vengo%20de%20Donde%20Lo%20Encuentro%2C%20quiero%20hacer%20un%20pedido%3A",
+    "dirección": "Av. Roca 523",
+    "zona": "Barrio Sur",
     "tipo": "De Autor"
   },
   {
     "nombre": "Grilx",
     "consumo": "Solo Retiro / Delivery",
     "instagram": "https://www.instagram.com/pedigrilx?utm_source=ig_web_button_share_sheet&igsh=N3Vsa3EzamI4N2s=",
-    "whatsapp": "https://wa.me/5493815325347?text=Hola%21%20Vengo%20de%20Donde%20Lo%20Encuentro%2C%20quiero%20hacer%20un%20pedido%3A",
+    "whatsapp": "https://wa.me/5493813618778?text=Hola%21%20Vengo%20de%20Donde%20Lo%20Encuentro%2C%20quiero%20hacer%20un%20pedido%3A",
     "dirección": "Av. Sarmiento 183",
     "zona": "Barrio Norte",
     "tipo": "De Autor"
